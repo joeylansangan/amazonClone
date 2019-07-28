@@ -11,7 +11,7 @@ var connection = mysql.createConnection({
   user: "root",
 
 // Insert own password here......
-  password: "rootroot",
+  password: "",
 
   database: "bamazon"
 });
@@ -117,7 +117,7 @@ function addToInventory() {
 
                 // validation to check ID is a valid integer between 1 and 10
                 validate: function(value) {
-                    if (!isNaN(value) && (value > 0 && value <= totalproducts)) {
+                    if (!isNaN(value) && (value > 0 && value <= totalItems)) {
                         return true;
                   } else {
                     console.log("\nEnter a valid number from 1-10.");
