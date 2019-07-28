@@ -127,10 +127,12 @@ function buyItems() {
  @param {Int} currentQuantity 
  */
 
+//  update quantity function
 function updateQuantity(id, quantity, currentQuantity){
     var quantityLeft = currentQuantity - quantity;
     connection.query( 
-        // updates the quantity at the id of the item / removes purchased items from the store's stock
+        
+        // update bamazon mysql database on products table
         "UPDATE products SET ? WHERE ?",
         [
           {
@@ -145,7 +147,7 @@ function updateQuantity(id, quantity, currentQuantity){
 
           console.log("There are now only "+quantityLeft+ " items left.")
 
-        //   inquires the user if they wish to continue the program / wish to buy another item
+        //   buy another item prompt
           inquirer.prompt([{
               name:'confirm',
               type:'confirm',
