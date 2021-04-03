@@ -10,6 +10,7 @@ With the program, the user can select an item to purchase base on a list of avai
 
 1. Go to Terminal in VS Code command line and install required packages:
  >* [MySQL](https://www.npmjs.com/package/mysql)
+ >* [Inquirer](https://www.npmjs.com/package/inquirer)
 
 2. Open MySQL Workbench and initialize connection:
  >* Check out documentation for more information [here](https://dev.mysql.com/doc/workbench/en/)
