@@ -11,5 +11,5 @@ With the program, the user can select an item to purchase base on a list of avai
 ```npm install mysql inquirer```
 - Initialize MySQL database
 - Input your own password in bamazonCustomer.js file
-- run customer level app with command: node bamazonCustomer.js
+- run customer level app with command: ```node bamazonCustomer.js```
 
