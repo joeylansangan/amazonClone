@@ -14,7 +14,16 @@ With the program, the user can select an item to purchase base on a list of avai
 2. Open MySQL Workbench and initialize connection:
  >* Check out documentation for more information [here](https://dev.mysql.com/doc/workbench/en/)
 
-3. Run application as a customer by entering: ```node bamazonCustomer.js```
+3. Run application as a customer by entering: ```node bamazonCustomer.js``` <br>
+As a customer you can:
+ >* View products and available quantity
+ >* Add items in a shopping cart
 
-4. Run application as a manager by entering: ```node bamazonManager.js```
+4. Run application as a manager by entering: ```node bamazonManager.js``` <br>
+As a manager you can:
+ >* View available products by category
+ >* Update inventory by adding/removing quantity for new or existing products
 
+View Customer demo [here](https://www.youtube.com/watch?v=pROo1O5pSCY)
+
+View Manager demo [here](https://www.youtube.com/watch?v=IdpGrzhnc74)
